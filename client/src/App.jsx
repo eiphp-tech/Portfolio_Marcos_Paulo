@@ -1,8 +1,9 @@
 import React from "react"
-import "./App.css"
+import "./styles/main.scss"
+import Home from "./pages/home/Home.jsx"
 
 function App() {
-  return <h1>Hello Word</h1>
+  return <Home />
 }
 
 export default App
